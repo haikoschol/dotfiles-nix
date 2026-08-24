@@ -22,6 +22,7 @@ in
     pinentry_mac
     python314
     rtk
+    rustup
     wget
     nerd-fonts.sauce-code-pro
     direnv
