@@ -79,6 +79,7 @@
     ];
 
     casks = [
+      "claude-code"
       "codex"
       "discord"
       "element"
