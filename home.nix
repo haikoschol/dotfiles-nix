@@ -9,6 +9,7 @@ in
   home.stateVersion = "25.05";
 
   home.packages = with pkgs; [
+    bat
     gh
     gnupg
     ripgrep
