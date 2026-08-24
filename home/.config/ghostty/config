@@ -1,0 +1,15 @@
+# Ghostty configuration migrated from the current macOS setup.
+
+macos-option-as-alt = true
+
+foreground = #c0c5ce
+background = #283842
+
+font-family = SauceCodePro NFM SemiBold
+font-family-bold = SauceCodePro NFM Bold
+
+font-size = 14
+cursor-style = block
+cursor-style-blink = false
+shell-integration = zsh
+shell-integration-features = no-cursor
