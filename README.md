@@ -48,8 +48,3 @@ a rebuild. The tmux and Ghostty files are linked from the repository.
 Global command-line tools are declared in `home.nix`. Project-specific
 dependencies should be declared in each project's own `flake.nix` and entered
 with `nix develop` or direnv using a project `.envrc` containing `use flake`.
-
-The repository intentionally does not include a generated `flake.lock` yet,
-because Nix is not installed on the machine at the time this configuration was
-generated. Generate and commit it after installing Nix and reviewing the input
-branches.
