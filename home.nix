@@ -1,4 +1,4 @@
-{ config, pkgs, user, ... }:
+{ config, pkgs, user, devenvPackage, ... }:
 
 let
   dotfiles = "${config.home.homeDirectory}/.dotfiles";
@@ -27,7 +27,7 @@ in
     nerd-fonts.sauce-code-pro
     direnv
     nix-direnv
-    devenv
+    devenvPackage
   ];
 
   fonts.fontconfig.enable = true;
