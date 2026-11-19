@@ -76,11 +76,13 @@
     brews = [
       "go"
       "openssh"
+      "mistral-vibe"
     ];
 
     casks = [
       "claude-code"
       "codex"
+      "mistral-vibe-app"
       "discord"
       "element"
       "ghostty"
