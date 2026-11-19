@@ -91,7 +91,6 @@
       "openemu"
       "orbstack"
       "rectangle"
-      "retroarch"
       "transmission"
       "vlc"
       "wireshark-app"
