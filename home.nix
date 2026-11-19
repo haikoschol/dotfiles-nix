@@ -27,6 +27,7 @@ in
     nerd-fonts.sauce-code-pro
     direnv
     nix-direnv
+    devenv
   ];
 
   fonts.fontconfig.enable = true;
